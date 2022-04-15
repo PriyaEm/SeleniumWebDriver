@@ -2,7 +2,7 @@ git status -> test
 git init -> test1
 git diff -> difference between the version
 git log -> logs
-git clone
+git clone -> another user wants to work on the code
 git commit -> comment
 git config
 git push
