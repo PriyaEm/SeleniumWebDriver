@@ -1,5 +1,5 @@
 git status -> test
-git init -> 
+git init -> test1
 git diff -> difference between the version
 git log -> logs
 git clone
