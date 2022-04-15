@@ -1,0 +1,9 @@
+git status -> test
+git init -> 
+git diff -> difference between the version
+git log -> logs
+git clone
+git commit -> comment
+git config
+git push
+git remote
