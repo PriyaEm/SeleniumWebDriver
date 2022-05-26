@@ -10,6 +10,8 @@ public class HandleFileUploadPopUp {
 		WebDriver driver = new FirefoxDriver();
 		driver.get("https://html.com/input-type-file/");
 		
+		
+		//html tag-- type = file should be present for Browse/AttachFile/ChooseFile/UploadFile Buttons
 		driver.findElement(By.xpath("//input[@id='fileupload']")).sendKeys("C:\\Users\\priya\\Desktop\\Test.txt");
 		driver.close();
 		
