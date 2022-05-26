@@ -1,4 +1,4 @@
-package basicweb;
+package experiments;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -12,7 +12,7 @@ public class HandleDropdown {
 		String baseURL = "https://courses.letskodeit.com/practice";
 		driver.get(baseURL);
 		
-		
+		//handle dropdown 
 		Select select = new Select(driver.findElement(By.id("carselect")));
 		select.selectByVisibleText("Benz");
 		select.selectByVisibleText("Honda");
