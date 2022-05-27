@@ -10,6 +10,13 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class HandleWindowPopUp {
 
+	// 1. Alert pop up -- Javascript popup--- to handle we have to use... Alerts
+	// API(Accept, Dismiss)
+	// 2. FileUpload pop up -- browse button and attach a file...(type - file ,
+	// sendkeys(path)
+	// 3. Browser window pop up --- advertisement pop up...(windowhandler API -
+	// getWindowHandles())
+
 	public static void main(String[] args) throws InterruptedException {
 
 		WebDriver driver = new FirefoxDriver();
@@ -29,7 +36,7 @@ public class HandleWindowPopUp {
 
 		driver.switchTo().window(childHandleId);
 		System.out.println("Child Handle title:" + driver.getTitle());
-		
+
 		Thread.sleep(2000);
 
 //		WebElement searchBox = driver.findElement(By.id("//input[@placeholder='Search Course"));
