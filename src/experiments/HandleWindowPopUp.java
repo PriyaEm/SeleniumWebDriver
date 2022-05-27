@@ -26,6 +26,8 @@ public class HandleWindowPopUp {
 		element.click();
 
 		Set<String> handler = driver.getWindowHandles();
+		
+		
 		Iterator<String> it = handler.iterator();
 
 		String parentHandleId = it.next();

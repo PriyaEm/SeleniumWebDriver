@@ -23,7 +23,7 @@ public class HtmlUnitDriverConcept {
 		
 		driver.findElement(By.id("email")).sendKeys("test@email.com");
 		driver.findElement(By.id("password")).sendKeys("abcabc");
-		driver.findElement(By.xpath("//input[contains(@type='submit')]")).click();
+		driver.findElement(By.xpath("//input[@type='submit']")).click();
 		
 		System.out.println("After login, title is:" + driver.getTitle());
 	}
