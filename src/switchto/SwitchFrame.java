@@ -30,7 +30,7 @@ public class SwitchFrame {
 	@Test
 	public void test() throws InterruptedException {
 		driver.get("https://courses.letskodeit.com/practice");
-		// switch to frame by numbers
+		// switch to frame by index
 		 driver.switchTo().frame(0);
 		
 		// switch to frame by id
